@@ -1,0 +1,26 @@
+
+<% tortillas = ["Flour", "Corn", "Lettuce"] %>
+
+<h1> I love tacos! </h1>
+
+<p>My name is <Strong> Casey </strong></p>
+
+<ul>
+    <li>Carnitas</li>
+    <li>El Pastor</li>
+    <li>Dessert</li>
+</ul>
+
+<h2> Toppings </h2>
+
+<ul>
+<li><a href = "https://www.cheese.com">CHEESE</a></li>
+</ul>
+
+<p>There are <%= tortillas.count %> types of tortillas </p>
+
+<ul>
+<% for tortilla in tortillas %>
+<li> <%= tortilla %></li>
+<% end %>
+</ul>

@@ -1,0 +1,39 @@
+<BODY BGCOLOR="5F9EAO">
+
+<h1> Roll the dice !!! </h1>
+
+<h2> Hardcode </h2>
+
+<p>
+3
+4
+</p>
+
+<p> Total is 7</p>
+
+<marquee behavior="alternate" direction="up" width="80%"><marquee direction="right">Ruby</marquee></marquee>
+
+
+<%
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2 %>
+
+<p>
+<%= die1 %>
+<img src="/images/dice/<%= die1 %>.svg">
+<%= die2 %>
+<img src="/images/dice/<%= die2 %>.svg">
+<p> Total is <%= total %> </p>
+
+<marquee behavior=alternate width="202″ scrollamount="8″ scrolldelay="95″ height="37″ bgcolor="#00FFFF">Side to side</marquee>
+
+<p>
+<a href="https://3000-caseysands-webapps-cjzbb01js7u.ws-us43.gitpod.io/dice"> Roll Again </a>
+
+
+<table style="background-color:yellow;"> <tr style="background-color:blue;color:white;">
+
+<th>Table header 1</th><th>Table header 1</th></tr><tr><td>Love to Know cell 1</td><td style="background-color:lightblie;">Love to Know cell 2</td>
+
+</tr></table>
